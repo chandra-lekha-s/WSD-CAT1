@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="cat1.xsl"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="cat1.xsd">
+
+<Employee>
+    <Emp-id>01</Emp-id>
+    <Emp-name>Arun</Emp-name>
+    <Emp-age>51</Emp-age>
+    <Emp-salary>200000</Emp-salary>
+    <Emp-emailid>arun30@gmail.com</Emp-emailid>
+    <Emp-phonenum>9611452685</Emp-phonenum>
+    <Emp-designation>Worker</Emp-designation>
+</Employee>
+<Employee>
+    <Emp-id>02</Emp-id>
+    <Emp-name>Sam</Emp-name>
+    <Emp-age>50</Emp-age>
+    <Emp-salary>100000</Emp-salary>
+    <Emp-emailid>sam@gmail.com</Emp-emailid>
+    <Emp-phonenum>9951364787</Emp-phonenum>
+    <Emp-designation>Worker</Emp-designation>
+</Employee>
+<Employee>
+    <Emp-id>03</Emp-id>
+    <Emp-name>Amith</Emp-name>
+    <Emp-age>49</Emp-age>
+    <Emp-salary>70000</Emp-salary>
+    <Emp-emailid>amith@gmail.com</Emp-emailid>
+    <Emp-phonenum>6344856957</Emp-phonenum>
+    <Emp-designation>Worker</Emp-designation>
+</Employee>
+<Employee>
+    <Emp-id>04</Emp-id>
+    <Emp-name>Salman</Emp-name>
+    <Emp-age>55</Emp-age>
+    <Emp-salary>80000</Emp-salary>
+    <Emp-emailid>salman@gmail.com</Emp-emailid>
+    <Emp-phonenum>8241563259</Emp-phonenum>
+    <Emp-designation>Worker</Emp-designation>
+</Employee>
+<Employee>
+    <Emp-id>05</Emp-id>
+    <Emp-name>Preethi</Emp-name>
+    <Emp-age>40</Emp-age>
+    <Emp-salary>60000</Emp-salary>
+    <Emp-emailid>preethi@gmail.com</Emp-emailid>
+    <Emp-phonenum>8655795632</Emp-phonenum>
+    <Emp-designation>Worker</Emp-designation>
+</Employee>
+<Employee>
+    <Emp-id>06</Emp-id>
+    <Emp-name>Smrithi</Emp-name>
+    <Emp-age>39</Emp-age>
+    <Emp-salary>50000</Emp-salary>
+    <Emp-emailid>smrithi@gmail.com</Emp-emailid>
+    <Emp-phonenum>9455823615</Emp-phonenum>
+    <Emp-designation>Worker</Emp-designation>
+</Employee>
+
+</Company>

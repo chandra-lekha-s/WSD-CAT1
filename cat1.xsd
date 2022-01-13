@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Company">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Employee" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Emp-id"  type="xs:integer" ></xs:element>
+                        <xs:element name="Emp-name" type="MyName"></xs:element>
+                        <xs:element name="Emp-age" type="xs:int"></xs:element>
+                        <xs:element name="Emp-salary" type="MySalary"></xs:element>
+                        <xs:element name="Emp-emailid" type="MyEmail"></xs:element>
+                        <xs:element name="Emp-phonenum" type="MyContact"></xs:element>
+                        <xs:element name="Emp-designation" type="xs:string"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:simpleType name="MyName">
+    <xs:restriction base="xs:string" >
+        <xs:pattern value = "[a-zA-Z]*"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="MyContact">
+    <xs:restriction base="xs:integer">
+        <xs:pattern value="\d{10}"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="MySalary">
+    <xs:restriction base="xs:integer">
+        <xs:minInclusive value="50000"></xs:minInclusive>
+        <xs:maxInclusive value="200000"></xs:maxInclusive>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name = "MyEmail">
+    <xs:restriction base = "xs:string">
+        <xs:pattern value = "[0-9a-z]*@gmail.com"/>
+    </xs:restriction>
+</xs:simpleType>
+
+</xs:schema>
